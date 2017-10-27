@@ -38,7 +38,7 @@ class Youdao {
 		return request(url, { json: true });
 	}
 
-	async orc ({ img, langType = 'zh-en' }) {
+	async ocr ({ img, langType = 'zh-en' }) {
 		let imgBase64 = img;
 
 		if (img.indexOf('http') >=0 ) {

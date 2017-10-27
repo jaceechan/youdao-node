@@ -33,16 +33,16 @@ describe('Translate Test', () => {
 	});
 });
 
-describe('ORC Test', () => {
+describe('OCR Test', () => {
 	it('use base64 image ', async () => {
-		const res = await youdao.orc({
+		const res = await youdao.ocr({
 			img: image
 		});
 		expect(res.errorCode).toBe('0');
 	});
 
 	it('use image url ', async () => {
-		const res = await youdao.orc({
+		const res = await youdao.ocr({
 			img: 'http://aidemo.youdao.com/images/demo/d_1.jpg'
 		});
 		expect(res.errorCode).toBe('0');
