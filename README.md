@@ -62,7 +62,7 @@ const res = await youdao.translate({
 
 ###### 示例代码
 ```js
-const res = await youdao.orc({
+const res = await youdao.ocr({
     img: <base64> || <imageUrl>
 });
 ```
