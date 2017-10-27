@@ -3,6 +3,10 @@
   "version": "1.0.1",
   "description": "youdaozhiyun sdk for nodejs",
   "main": "lib/index",
+  "files": [
+    "*.md",
+    "lib"
+  ],
   "scripts": {
     "start": "yarn test -- --watchAll",
     "test": "CWP_ENV=development jest --runInBand",
