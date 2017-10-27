@@ -1,6 +1,6 @@
 {
   "name": "youdao-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "youdaozhiyun sdk for nodejs",
   "main": "lib/index",
   "scripts": {
