@@ -39,7 +39,7 @@ youdao.config({
 - `from` (String): 源语言(可设置为auto，默认为auto)
 - `to` (String): 目标(可设置为auto，默认为auto)
 
-可翻译语言列表参考：http://ai.youdao.com/docs/doc-trans-api.s#p05
+可翻译语言列表参考：http://ai.youdao.com/docs/doc-trans-api.s#p07
 
 
 ###### 示例代码
